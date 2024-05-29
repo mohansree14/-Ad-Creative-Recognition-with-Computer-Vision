@@ -12,8 +12,11 @@ The images are resized to 224x224 pixels and normalized for training.
 # Installation
 1.Clone the repository: 
       git clone https://github.com/your-username/ad-creative-classification.git
+      
       cd ad-creative-classification
+      
 2.Install the required dependencies:
+
       pip install -r requirements.txt
       
 # Usage
@@ -28,6 +31,8 @@ ad-creative-classification/
     ├── image1.jpg
     ├── image2.jpg
     └── ...
+
+
 2.Run the training script:
     python train_model.py
 3.The trained model will be saved as ad_deploy.h5 in the specified directory.
