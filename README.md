@@ -9,34 +9,6 @@ The dataset consists of two directories: ad-creatives and non_ad-creatives.
 Each directory contains images in .jpg or .png format.
 The images are resized to 224x224 pixels and normalized for training.
 
-# Installation
-1.Clone the repository: 
-      git clone https://github.com/your-username/ad-creative-classification.git
-      
-      cd ad-creative-classification
-      
-2.Install the required dependencies:
-
-      pip install -r requirements.txt
-      
-# Usage
-1.Ensure your dataset is organized in the following structure:
-
-ad-creative-classification/
-1.ad-creatives/
-     1.1 image1.jpg
-     1.2 image2.jpg
-     
-2.non_ad-creatives/
-     2.1 image1.jpg
-     2.2 image2.jpg
-  
-
-
-2.Run the training script:
-    python train_model.py
-3.The trained model will be saved as ad_deploy.h5 in the specified directory.
-
 # Model Architecture
  The base model is a ResNet50 pre-trained on ImageNet.
 Additional layers include a global average pooling layer, a dense layer with 128 units and ReLU activation, and a final dense layer with sigmoid activation for binary classification.
