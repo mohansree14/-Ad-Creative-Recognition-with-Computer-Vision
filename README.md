@@ -23,14 +23,14 @@ The images are resized to 224x224 pixels and normalized for training.
 1.Ensure your dataset is organized in the following structure:
 
 ad-creative-classification/
-├── ad-creatives/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-└── non_ad-creatives/
-    ├── image1.jpg
-    ├── image2.jpg
-    └── ...
+1.ad-creatives/
+     1.1 image1.jpg
+     1.2 image2.jpg
+     
+2.non_ad-creatives/
+     2.1 image1.jpg
+     2.2 image2.jpg
+  
 
 
 2.Run the training script:
